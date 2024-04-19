@@ -31,9 +31,10 @@ const connect = async () => {
   }
 };
 const corsOptions = {
-  origin: 'https://Kiraa.com',
+  origin: 'http://localhost:3000',
   methods: 'GET, POST, PUT, DELETE',
 };
+
 
 
 
