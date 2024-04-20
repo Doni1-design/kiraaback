@@ -35,7 +35,9 @@ const corsOptions = {
   methods: 'GET, POST, PUT, DELETE',
 };
 
-
+app.use("/",(req,res))= (req,res) => {
+  res.send("hello from node js")
+}
 
 
 
